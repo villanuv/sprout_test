@@ -48,7 +48,7 @@
   <script>
 
     $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
-      options.url = 'http://cryptic-sands-4837.herokuapp.com/application/site' + options.url;
+      options.url = 'http://cryptic-sands-4837.herokuapp.com/site' + options.url;
     });
 
     $.fn.serializeObject = function() {
