@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/sprout_final/';
+$config['base_url']	= 'http://cryptic-sands-4837.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
