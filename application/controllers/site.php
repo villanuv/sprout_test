@@ -12,7 +12,7 @@ class Site extends REST_Controller
         if($query = $this->site_model->get_records())
         {
             foreach($query as $row) {
-                $row->imageDB = unserialize($row->imageDB);
+                $row->imagedb = unserialize($row->imagedb);
             }
         }
 
@@ -30,7 +30,7 @@ class Site extends REST_Controller
                 $data['url'] = $row->url;
                 $data['title'] = $row->title;
                 $data['description'] = $row->url;
-                $data['images'] = unserialize($row->imageDB);
+                $data['images'] = unserialize($row->imagedb);
             }
         }
 
@@ -74,7 +74,7 @@ class Site extends REST_Controller
         }
 
         // $data['images'] = array_slice($images, 0, 10);
-        $data['imageDB'] = serialize(array_slice($images, 0, 10));
+        $data['imagedb'] = serialize(array_slice($images, 0, 10));
 
         // $this->response($data);
 

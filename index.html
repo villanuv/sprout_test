@@ -15,7 +15,7 @@
   <script type="text/template" id="website-list-template">
     <%
       _.each(websites, function(website) {
-      var imgObj = website.get("imageDB");
+      var imgObj = website.get("imagedb");
     %>
     <table class="table striped">
       <tr style="border-top:5px #ccc solid;"><td width="100">Link</td><td align="left"><%= website.get("url") %></td></tr>
@@ -48,7 +48,7 @@
   <script>
 
     $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
-      options.url = 'http://cryptic-sands-4837.herokuapp.com/site' + options.url;
+      options.url = 'http://cryptic-sands-4837.herokuapp.com/application/site' + options.url;
     });
 
     $.fn.serializeObject = function() {
