@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://cryptic-sands-4837.herokuapp.com/';
+$config['base_url']	= 'http://pa3co.com/sprout_test/';
 
 /*
 |--------------------------------------------------------------------------
