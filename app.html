@@ -8,7 +8,18 @@
 <body>
 
   <div class="container">
-    <h1>Scraped Websites [<a href="#/new">Add</a>]</h1>
+    <h1><a href="/sprout_test/app.html">API Scraping</a> [ <a href="#/new">Add</a> ]</h1>
+
+  <h3>Assignment</h3>
+    <ol>
+      <li>&#x2713; Create a CodeIgniter Controller that exposes an endpoint that can be POSTed to and accepts a URL</li>
+      <li>&#x2713; The response from that endpoint should be a JSON object that contains the keys: title, description and images. The value of title is a String; the value of description is a String; the value of images is an array of image URLs.</li>
+      <li>&#x2713; The maximum number of images should be capped at 10</li>
+      <li>&#x2713; The Backbone objects created should be responsible for making the request to the endpoint along with storing and rendering the data.</li>
+    </ol>
+  <h3>Notes</h3>
+  <p>I did not validate the html form, which may cause errors if used incorrectly and would make this work more seamlessly. It would be one of the first things to improve upon. There were certain scraping issues I'm not quite sure about, which may cause empty returns. I've accommodated for description flaws, as you will see I considered three possibilities. I learned quite a bit for this project, thank you.</p>
+
     <div class="page" style="margin-top: 50px;"></div>
   </div>
 
