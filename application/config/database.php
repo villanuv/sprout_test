@@ -41,7 +41,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '99.119.124.217';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'patrickv_ss';
 $db['default']['password'] = 'sproutchallenge1';
 $db['default']['database'] = 'patrickv_sprout';
