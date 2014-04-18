@@ -73,11 +73,9 @@ class Site extends REST_Controller
             array_push($images, $image->src);
         }
 
-        // $data['images'] = array_slice($images, 0, 10);
         $data['imagedb'] = serialize(array_slice($images, 0, 10));
 
         // $this->response($data);
-
         $this->site_model->add_record($data);
 
     }
