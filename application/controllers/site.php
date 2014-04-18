@@ -29,7 +29,7 @@ class Site extends REST_Controller
             foreach($query as $row) {
                 $data['url'] = $row->url;
                 $data['title'] = $row->title;
-                $data['description'] = $row->url;
+                $data['description'] = $row->description;
                 $data['images'] = unserialize($row->imagedb);
             }
         }
