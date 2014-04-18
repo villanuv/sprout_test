@@ -5,4 +5,5 @@
 */cache/!index.html
 */cache/!.htaccess
 */config
-*/_notes/*database.php
+*/_notes/*
+database.php
