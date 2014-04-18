@@ -41,11 +41,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'ec2-54-225-101-124.compute-1.amazonaws.com';
-$db['default']['username'] = 'nvbsgmhvvuodou';
-$db['default']['password'] = '_iykLyxITm1BhFEBOrw7Au3zq4';
-$db['default']['database'] = 'de4d091ghl0s8';
-$db['default']['dbdriver'] = 'postgre';
+$db['default']['hostname'] = '99.119.124.%';
+$db['default']['username'] = 'patrickv_ss';
+$db['default']['password'] = 'sproutchallenge1';
+$db['default']['database'] = 'patrickv_sprout';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
