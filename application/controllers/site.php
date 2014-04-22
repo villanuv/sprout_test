@@ -73,7 +73,8 @@ class Site extends REST_Controller
             array_push($images, $image->src);
         }
 
-        $data['imagedb'] = serialize(array_slice($images, 0, 10));
+        $imagesFilter = array_unique($images);
+        $data['imagedb'] = serialize(array_slice($imagesFilter, 0, 10));
 
         // $this->response($data);
         $this->site_model->add_record($data);
